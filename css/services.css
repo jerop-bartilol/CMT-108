@@ -69,15 +69,63 @@ a{
     text-align: center;
     margin-top: 5%;
 }
+.container{
+    margin: 5%;
+    display: flex;
+    gap: 5%;
+    
+}
 .p1{
     color:rgb(139, 69, 19) ;
     padding-bottom: 2%;
 }
-.h1-2{
-    padding-bottom: 2%;
+.image1{
+    width: 90%;
+    height: 30vh;
 }
-
-
+.p3{
+    width: 80%;
+}
+.services1{
+    width: 50%;
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 10pxx;
+}
+.h3-1{
+    padding-top: 10%;
+}
+.b3{
+    background-color: rgb(139, 69, 19);
+    color: white;
+    width: 20%;
+    height: 5vh;
+    font-weight: bold;
+     position: absolute;
+    bottom: -42%;
+    left: 7.5%;
+    
+}
+.b4{
+    background-color: rgb(139, 69, 19);
+    color: white;
+    width: 20%;
+    height: 5vh;
+    font-weight: bold;
+     position: absolute;
+    bottom: -42%;
+    left: 39%;
+}
+.b5{
+    background-color: rgb(139, 69, 19);
+    color: white;
+    width: 20%;
+    height: 5vh;
+    font-weight: bold;
+     position: absolute;
+    bottom: -42%;
+    left: 70.5%;
+}
 /*Footer*/
 .FOOTER{
     background-color:rgb(139, 69, 19);
