@@ -98,6 +98,79 @@ a{
     border: none;
     cursor: pointer;
 }
+/*FAQ*/
+.FAQ{
+    border: 2px solid rgb(164, 164, 164);
+    width: 95%;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 20px;
+    padding-top: 2%;
+    background-color: whitesmoke;
+    margin-bottom: 5%;
+}
+.faq{
+    text-align: center;
+}
+.faq-question{
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius:5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faq-answer{
+    display: none;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.item{
+    padding-left: 15%;
+    padding-top: 3%;
+    border-bottom: 1px solid #ddd;
+   
+}
+.item.active .faq-answer{
+    display: block;
+}
+/*bottom-footer*/
+.bottom-footer{
+    margin-bottom: 30px;
+    color:  teal;
+    border-top: 2px solid teal;
+    padding: 20px;
+    margin-top: 10%;
+    color: black;
+
+}
+.h3-1{
+    font-size: 19px;
+}
+.footer3{
+    display: flex;
+    gap: 15%;
+    padding-left: 10%;
+    font-size: 15px;
+}
+.footer3 a {
+    color:teal ;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.icon1{
+    width: 10%;
+    padding-right: 5px;
+}
+
 
 /*Footer*/
 .FOOTER{
